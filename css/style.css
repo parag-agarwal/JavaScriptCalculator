@@ -1,0 +1,87 @@
+html {
+  width: 100%;
+  background-color:#688999;
+}
+
+#extScreen{
+  font-family:consolas;
+  font-size:1.6em;
+  color:#777777;
+  text-align:right;
+}
+
+#eqnScreen{
+  font-family:consolas;
+  font-size:1.6em;
+  color:#777777;
+  text-align: right;
+}
+
+#ansScreen{
+  font-family: consolas;
+  font-size: 2.5em;
+  color:#AAAAAA;
+  text-align:right;
+  padding-top:5%;
+  min-width:350px;
+}
+
+#ans,#eqn,#ext{
+  margin-right:2.2%;
+}
+
+#ext{
+  visibility:hidden;
+}
+
+.frame {
+  width: 30%;
+  background-color: #171717;
+  display:table;
+  margin:10% auto;
+  border:1px solid #000;
+  border-bottom:1px solid #000;
+  border-left:1px solid #000;
+  box-shadow: 0 5px 18px 2px #000;
+}
+
+#screen{
+  width:100%;
+}
+
+.number,.op{
+  font-family:'Consolas';
+  font-size:1em;
+  color: #AAAAAA;
+  width: 24.6%;
+  padding-top:8%;
+  padding-bottom:8%;
+  margin-bottom:0.2%;
+  margin-right:-1.5%;
+  margin-left:0.85%;
+}
+
+#opb,#seven,#four,#one,#reset{
+  margin-left:0.4%;
+}
+.number{
+  background-color:#2F2F2F;
+  border:#2F2F2F;
+}
+.op{
+  background-color:#222222;
+  border:#222222;
+}
+
+.rule{
+  border:0.5px solid #000000;
+}
+
+#reset{
+  background-color:#AA2222;
+}
+
+.op,.number{
+  outline:0;
+}
+/*styling ends*/
