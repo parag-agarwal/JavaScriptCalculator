@@ -1,3 +1,22 @@
+@font-face {
+  font-family: 'Track';
+  src: url(Track.otf);
+}
+
+h1{
+  font-family: Track;
+  color:#222222;
+  text-align:center;
+  margin-top:3%;
+}
+
+p{
+  margin-left:20%;
+  margin-right:20%;
+  font-family: corbel;
+  font-size: 1.2em;
+}
+
 html {
   width: 100%;
   background-color:#688999;
@@ -23,7 +42,7 @@ html {
   color:#AAAAAA;
   text-align:right;
   padding-top:5%;
-  min-width:350px;
+  min-width:380px;
 }
 
 #ans,#eqn,#ext{
@@ -38,7 +57,7 @@ html {
   width: 30%;
   background-color: #171717;
   display:table;
-  margin:10% auto;
+  margin:3.5% auto;
   border:1px solid #000;
   border-bottom:1px solid #000;
   border-left:1px solid #000;
