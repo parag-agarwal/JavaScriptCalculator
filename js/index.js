@@ -125,7 +125,7 @@ function equals() {
   }
   if(pointAt!==-1)temp=(parseFloat(temp).toPrecision(15));
   var strtemp=temp+'';
-  for(var i=strtemp.length-1;strtemp[i]==0;i--){
+  for(var i=strtemp.length-1;(strtemp[i]==='0'||strtemp[i]==='.')&&i>0&&strtemp.indexOf('.')!==-1;i--){
     strtemp=strtemp.slice(0,i);
   }
   $("#ansScreen span").text(strtemp);
